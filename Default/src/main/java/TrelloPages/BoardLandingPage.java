@@ -17,7 +17,7 @@ public class BoardLandingPage {
 	public By cardLocation=By.cssSelector("div[class='list-card-details js-card-details']");
 	public By profileBtn=By.cssSelector("button[data-testid='header-member-menu-button']");
 	public By logoutBtn=By.cssSelector("button[data-testid='account-menu-logout']");
-	
+	public By logoutBtnMain=By.id("logout-submit");
 	public BoardLandingPage(WebDriver driver)
 	{
 		this.driver=driver;

@@ -68,6 +68,9 @@ public class WorkSpace {
 	public void clickOnLogOut()
 	{
 		driver.findElement(boardLandingPage.logoutBtn).click();
+		driver.findElement(boardLandingPage.logoutBtnMain).click();
 	}
+	
+		
 	
 }
