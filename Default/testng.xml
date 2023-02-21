@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Trello WorkSpace"  > 
+<!-- suite name="Suite Name" --> 
+
+
+             <test name="Test">
+                     <classes>
+                       <!-- packagename.Testcase class name  -->
+                             <class name ="TrelloTestCases.AssessmentTask" />
+                     </classes>
+             </test>
+
+
+</suite>
